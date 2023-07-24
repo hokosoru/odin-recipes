@@ -39,3 +39,31 @@ h1{
     margin-top: 10vh;
     text-align: center;
 }
+.container{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container .lasagna-recipe{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 20vh;
+    background-color: #03506F;
+}
+.container .lasagna-recipe img{
+    border-radius: 50%;
+    width: 20vh;
+    height: 15vh;
+}
+.container .lasagna-recipe p{
+    margin:70px 20px 0px 20px;
+    font-size: 1.3rem;
+}
+.container .lasagna-recipe a:hover{
+    cursor: pointer;
+    background-color: #27374D;
+}
