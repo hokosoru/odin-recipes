@@ -36,7 +36,7 @@ body{
     text-decoration: underline;
 }
 h1{
-    margin-top: 10vh;
+    margin-top: 8vh;
     text-align: center;
 }
 .container{
@@ -47,12 +47,14 @@ h1{
     align-items: center;
 
 }
+/* Lasagna Section */
 .container .lasagna-recipe{
     display: flex;
     flex-direction: row;
     width: 60%;
     height: 20vh;
-    background-color: #03506F;
+    box-shadow: 0px 5px 5px 0px #03506F;
+    border-radius: 20px;
 }
 .container .lasagna-recipe img{
     border-radius: 50%;
@@ -60,10 +62,82 @@ h1{
     height: 15vh;
 }
 .container .lasagna-recipe p{
-    margin:70px 20px 0px 20px;
+    margin:60px 20px 0px 20px;
     font-size: 1.3rem;
 }
 .container .lasagna-recipe a:hover{
     cursor: pointer;
-    background-color: #27374D;
+    background-color: #0B2447;
+}
+/* Adobo Section */
+.container .Adobo-recipe{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 20vh;
+    box-shadow: 0px 5px 5px 0px #03506F;
+    border-radius: 20px;
+}
+.container .Adobo-recipe img{
+    border-radius: 50%;
+    width: 700px;
+    height: 15vh;
+}
+.container .Adobo-recipe p{
+    margin:60px 20px 0px 20px;
+    font-size: 1.3rem;
+}
+.container .Adoborecipe a:hover{
+    cursor: pointer;
+    background-color: #0B2447;
+}
+/* Lumpia Section */
+.container .Lumpia-recipe{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 20vh;
+    box-shadow: 0px 5px 5px 0px #03506F;
+    border-radius: 20px;
+}
+.container .Lumpia-recipe img{
+    border-radius: 50%;
+    width: 20vh;
+    height: 15vh;
+}
+.container .Lumpia-recipe p{
+    margin:60px 20px 0px 20px;
+    font-size: 1.3rem;
+}
+.container .Lumpia-recipe a:hover{
+    cursor: pointer;
+    background-color: #0B2447;
+}
+/* Fried Chicken Section */
+.container .Chicken-recipe{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 20vh;
+    box-shadow: 0px 5px 5px 0px #03506F;
+    border-radius: 20px;
+}
+.container .Chicken-recipe img{
+    border-radius: 50%;
+    width: 20vh;
+    height: 15vh;
+}
+.container .Chicken-recipe p{
+    margin:60px 20px 0px 20px;
+    font-size: 1.3rem;
+}
+.container .Chicken-recipe a:hover{
+    cursor: pointer;
+    background-color: #0B2447;
+}
+footer{
+    margin-top: 10vh;
+    height: 30vh;
+    width: 100%;
+    background-color: #0A2647;
 }
