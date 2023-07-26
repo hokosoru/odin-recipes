@@ -135,9 +135,16 @@ h1{
     cursor: pointer;
     background-color: #0B2447;
 }
-footer{
-    margin-top: 10vh;
-    height: 30vh;
-    width: 100%;
-    background-color: #0A2647;
+footer {
+    background-color: #03506F;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+footer a {
+    color:violet;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
 }
