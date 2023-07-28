@@ -1,0 +1,301 @@
+*{
+    font-family: sans-serif;
+    margin: auto;
+    color: white;
+}
+body{
+    background-color: #27374D;
+}
+body ::-webkit-scrollbar{
+    display: none;
+}
+/* Top Nav Section */
+.top-nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #03506F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-nav img{
+    height: 9vh;
+    width: 10vh;
+    padding-right: 45%;
+}
+.top-nav ul li {
+    display: inline-block;
+    padding: 20px 50px 20px 50px;
+    list-style: none;
+    font-size: 1.5rem;
+}
+.top-nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+.top-nav ul li a:hover{
+    cursor: pointer;
+    background-color: #27374D ;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+/* Lasagna Recipe */
+.lasagna-recipes{
+    width: 55%;
+    overflow-y: auto; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.lasagna-recipes h1{
+    text-align: center;
+    margin-top: 8vh;
+    font-size: 3.5rem;
+    color: burlywood;
+}
+.lasagna-recipes p{
+    font-size: 24px;
+}
+.lasagna-recipes .lasagna-images{
+    display: flex;
+    flex-direction: row;
+}
+.lasagna-recipes .lasagna-image img{
+    height: 30vh;
+    margin-top: 35px;
+    border-radius: 40px;
+    padding: 20px;
+}
+.lasagna-recipes h2{
+    text-align: left;
+    font-size: 2.5rem;
+    color: burlywood;
+}
+/* Ingredients Section and Steps for Lasagna*/
+.lasagna-recipes .lasagna-ingred{
+    width: 90%;
+    height: 40vh;
+    text-align: left;
+    margin-top: 20px;
+}
+.lasagna-recipes .lasagna-ingred h3{
+    font-size: 1.8rem;
+    color: burlywood;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.lasagna-recipes .lasagna-ingred ul{
+    margin-top:20px;
+}
+.lasagna-recipes .lasagna-ingred ul li{
+    font-size: 23px;
+    padding-top: 10px;
+}
+.lasagna-recipes .lasagna-ingred ol{
+    margin-top:20px;
+}
+.lasagna-recipes .lasagna-ingred ol li{
+    font-size: 23px;
+    padding-top: 10px;
+}
+/* Footer Section */
+footer {
+    margin-top: 40px;
+    bottom: 0;
+    background-color: #03506F;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+footer a {
+    color:violet;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+/* Adobo Recipe Section */
+.adobo-recipes{
+    width: 55%;
+    overflow-y: auto; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.adobo-recipes h1{
+    text-align: center;
+    margin-top: 8vh;
+    font-size: 3.5rem;
+    color: burlywood;
+}
+.adobo-recipes p{
+    font-size: 24px;
+}
+.adobo-recipes .adobo-images{
+    display: flex;
+    flex-direction: row;
+}
+.adobo-recipes .adobo-image img{
+    width: 40%;
+    height: 30vh;
+    margin-top: 35px;
+    border-radius: 40px;
+    padding: 20px;
+}
+/* Ingredients Section and Steps for Adobo*/
+.adobo-recipes .adobo-ingred{
+    width: 90%;
+    height: 40vh;
+    text-align: left;
+    margin-top: 20px;
+}
+.adobo-recipes .adobo-ingred h3{
+    font-size: 1.8rem;
+    color: burlywood;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.adobo-recipes .adobo-ingred ul{
+    margin-top:20px;
+}
+.adobo-recipes .adobo-ingred ul li{
+    font-size: 23px;
+    padding-top: 10px;
+}
+.adobo-recipes .adobo-ingred ol{
+    margin-top:20px;
+}
+.adobo-recipes .adobo-ingred ol li{
+    font-size: 23px;
+    padding-top: 10px;
+}
+/* Lumpia Recipe Section */
+.lumpia-recipes{
+    width: 55%;
+    overflow-y: auto; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.lumpia-recipes h1{
+    text-align: center;
+    margin-top: 8vh;
+    font-size: 3.5rem;
+    color: burlywood;
+}
+.lumpia-recipes p{
+    font-size: 24px;
+}
+.lumpia-recipes .lumpia-images{
+    display: flex;
+    flex-direction: row;
+}
+.lumpia-recipes .lumpia-image img{
+    width: 40%;
+    height: 30vh;
+    margin-top: 35px;
+    border-radius: 40px;
+    padding: 20px;
+}
+/* Ingredients Section and Steps for Lumpia*/
+.lumpia-recipes .lumpia-ingred{
+    width: 90%;
+    height: 40vh;
+    text-align: left;
+    margin-top: 20px;
+}
+.lumpia-recipes .lumpia-ingred h3{
+    font-size: 1.8rem;
+    color: burlywood;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.lumpia-recipes .lumpia-ingred ul{
+    margin-top:20px;
+}
+.lumpia-recipes .lumpia-ingred ul li{
+    font-size: 23px;
+    padding-top: 10px;
+}
+.lumpia-recipes .lumpia-ingred ol{
+    margin-top:20px;
+}
+.lumpia-recipes .lumpia-ingred ol li{
+    font-size: 23px;
+    padding-top: 10px;
+}
+/* Fried Chicken Section */
+.fried-chicken-recipes{
+    width: 55%;
+    overflow-y: auto; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.fried-chicken-recipes h1{
+    text-align: center;
+    margin-top: 8vh;
+    font-size: 3.5rem;
+    color: burlywood;
+}
+.fried-chicken-recipes p{
+    font-size: 24px;
+}
+.fried-chicken-recipes .fried-chicken-images{
+    display: flex;
+    flex-direction: row;
+}
+.fried-chicken-recipes .fried-chicken-image img{
+    width: 40%;
+    height: 30vh;
+    margin-top: 35px;
+    border-radius: 40px;
+    padding: 20px;
+}
+/* Ingredients Section and Steps for Fried Chicken*/
+.fried-chicken-recipes .fried-chicken-ingred{
+    width: 90%;
+    height: 40vh;
+    text-align: left;
+    margin-top: 20px;
+}
+.fried-chicken-recipes .fried-chicken-ingred h3{
+    font-size: 1.8rem;
+    color: burlywood;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.fried-chicken-recipes .fried-chicken-ingred ul{
+    margin-top:20px;
+}
+.fried-chicken-recipes .fried-chicken-ingred ul li{
+    font-size: 23px;
+    padding-top: 10px;
+}
+.fried-chicken-recipes .fried-chicken-ingred ol{
+    margin-top:20px;
+}
+.fried-chicken-recipes .fried-chicken-ingred ol li{
+    font-size: 23px;
+    padding-top: 10px;
+}
