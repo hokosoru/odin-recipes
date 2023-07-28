@@ -4,3 +4,7 @@
 
 #Added some footer to my web page (july 26, 2023)
 ![image](https://github.com/hokosoru/odin-recipes/assets/132313415/b3d67d7b-936d-4788-acd1-564a5dede719)
+
+#Lasagna Recipe page Updated (july 27, 2023)
+![image](https://github.com/hokosoru/odin-recipes/assets/132313415/0ec02206-9c2e-463f-802d-8c33bbd99d42)
+
