@@ -8,3 +8,11 @@
 #Lasagna Recipe page Updated (july 27, 2023)
 ![image](https://github.com/hokosoru/odin-recipes/assets/132313415/0ec02206-9c2e-463f-802d-8c33bbd99d42)
 
+#Odin's Recipe Completed
+![image](https://github.com/hokosoru/odin-recipes/assets/132313415/d1f749b3-b960-4574-a96f-91794fcd9c04)
+![image](https://github.com/hokosoru/odin-recipes/assets/132313415/843ec25e-237b-4346-b247-6378a06a5518)
+![image](https://github.com/hokosoru/odin-recipes/assets/132313415/dcc68ec5-80d9-4149-9095-0b399e290aaa)
+![image](https://github.com/hokosoru/odin-recipes/assets/132313415/9637d905-8dfd-4c91-bc05-7b898c6387a9)
+
+
+
